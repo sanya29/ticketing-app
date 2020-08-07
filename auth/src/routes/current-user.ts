@@ -4,7 +4,7 @@ import { requireAuth } from '../middlewares/require-auth'
 
 const router = express.Router();
 
-router.get('/api/users/currentuser', currentUser, requireAuth, (req, res) => {
+router.get('/api/users/currentuser', currentUser,(req, res) => {
     // if (!req.session || !req.session.jwt) { //shorthand=> !req.session?.jwt
     //     return res.send({currentUser: null})
     // }
