@@ -1,6 +1,5 @@
 import express from 'express';
-import { currentUser } from '../middlewares/current-user'
-import { requireAuth } from '../middlewares/require-auth'
+import { currentUser } from '@git-tix-ss/common'
 
 const router = express.Router();
 
