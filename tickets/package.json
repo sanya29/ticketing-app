@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@git-tix-ss/common": "^1.0.10",
+    "@git-tix-ss/common": "^1.0.13",
     "@types/cookie-session": "^2.0.41",
     "@types/express": "^4.17.7",
     "@types/jsonwebtoken": "^8.5.0",
@@ -29,15 +29,15 @@
     "express-validator": "^6.6.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.28",
-    "ts-node-dev": "^1.0.0-pre.56",
+    "ts-node-dev": "^1.0.0-pre.57",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
     "@types/jest": "^26.0.9",
     "@types/supertest": "^2.0.10",
-    "jest": "^26.2.2",
+    "jest": "^26.4.0",
     "mongodb-memory-server": "^6.6.3",
     "supertest": "^4.0.2",
-    "ts-jest": "^26.1.4"
+    "ts-jest": "^26.2.0"
   }
 }
