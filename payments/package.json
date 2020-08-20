@@ -23,7 +23,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@git-tix-ss/common": "^1.0.17",
+    "@git-tix-ss/common": "^1.0.19",
     "@types/cookie-session": "^2.0.41",
     "@types/express": "^4.17.7",
     "@types/jsonwebtoken": "^8.5.0",
