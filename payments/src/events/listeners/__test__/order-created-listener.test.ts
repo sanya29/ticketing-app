@@ -28,20 +28,20 @@ const setup = async () => {
   return { listener, data, msg };
 };
 
-it('replicates the order info', () => {
-  // const { listener, data, msg } = await setup();
+it('replicates the order info', async () => {
+  const { listener, data, msg } = await setup();
 
-  // await listener.onMessage(data, msg);
+  await listener.onMessage(data, msg);
 
-  // const order = await Order.findById(data.id);
+  const order = await Order.findById(data.id);
 
-  // expect(order!.price).toEqual(data.ticket.price);
+  expect(order!.price).toEqual(data.ticket.price);
 });
 
-it('acks the message', () => {
-  // const { listener, data, msg } = await setup();
+it('acks the message', async () => {
+  const { listener, data, msg } = await setup();
 
-  // await listener.onMessage(data, msg);
+  await listener.onMessage(data, msg);
 
-  // expect(msg.ack).toHaveBeenCalled();
+  expect(msg.ack).toHaveBeenCalled();
 });
