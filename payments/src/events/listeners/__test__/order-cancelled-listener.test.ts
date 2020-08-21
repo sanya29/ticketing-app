@@ -33,7 +33,7 @@ const setup = async () => {
   return { listener, data, msg, order };
 };
 
-it('updates the status of the order', async () => {
+it('updates the status of the order', () => {
   // const { listener, data, msg, order } = await setup();
 
   // await listener.onMessage(data, msg);
@@ -43,7 +43,7 @@ it('updates the status of the order', async () => {
   // expect(updatedOrder!.status).toEqual(OrderStatus.Cancelled);
 });
 
-it('acks the message', async () => {
+it('acks the message', () => {
   // const { listener, data, msg, order } = await setup();
 
   // await listener.onMessage(data, msg);

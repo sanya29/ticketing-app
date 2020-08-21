@@ -8,7 +8,7 @@ import { Payment } from '../../models/payment'
 
 // jest.mock('../../stripe')
 
-it('returns a 404 when purchasing an order that does not exist', async () => {
+it('returns a 404 when purchasing an order that does not exist', () => {
     // await request(app)
     // .post('/api/payments')
     // .set('Cookie', global.signin())
@@ -19,7 +19,7 @@ it('returns a 404 when purchasing an order that does not exist', async () => {
     // .expect(404)
 })
 
-it('returns a 401 when purchasing an order that doesn\'t belong to the user', async () => {
+it('returns a 401 when purchasing an order that doesn\'t belong to the user',  () => {
     // const order = Order.build({
     //     id: mongoose.Types.ObjectId().toHexString(),
     //     userId: mongoose.Types.ObjectId().toHexString(),
@@ -39,7 +39,7 @@ it('returns a 401 when purchasing an order that doesn\'t belong to the user', as
     // .expect(401)
 })
 
-it('returns a 400 when purchasing a cancelled order', async () => {
+it('returns a 400 when purchasing a cancelled order', () => {
     // const userId = mongoose.Types.ObjectId().toHexString()
     // const order = Order.build({
     //     id: mongoose.Types.ObjectId().toHexString(),
